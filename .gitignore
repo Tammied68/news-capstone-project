@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+venv312/
+
+# Database
+db.sqlite3
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Documentation build artifacts
+docs/build/
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}News Management System{% endblock %}</title>
+</head>
+<body>
+    <h1>News Management System</h1>
+
+    <nav>
+        <a href="{% url 'home' %}">Home</a> |
+        <a href="{% url 'reader_dashboard' %}">Reader Dashboard</a> |
+        <a href="{% url 'journalist_dashboard' %}">Journalist Dashboard</a> |
+        <a href="{% url 'editor_dashboard' %}">Editor Dashboard</a>
+        
+    </nav>
+<form method="post" action="{% url 'logout' %}" style="display:inline;">
+    {% csrf_token %}
+    <button type="submit">Logout</button>
+</form>
+    <hr>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
