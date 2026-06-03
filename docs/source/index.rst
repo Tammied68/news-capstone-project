@@ -3,12 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-News Management System documentation
-====================================
+News Management System
+======================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+This documentation was generated using Sphinx for the News Management System capstone project.
+
+The project is a Django-based news publishing platform that supports:
+
+* Custom user roles (Reader, Journalist, Editor)
+* Article approval workflows
+* Publisher and journalist subscriptions
+* REST API access
+* Email notifications
+* MariaDB integration
+* Docker containerization
 
 
 .. toctree::

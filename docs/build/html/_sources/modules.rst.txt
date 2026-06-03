@@ -1,7 +1,15 @@
-accounts
-========
+news
+====
 
 .. toctree::
    :maxdepth: 4
 
-   accounts
+   admin
+   apps
+   forms
+   migrations
+   models
+   serializers
+   tests
+   urls
+   views
